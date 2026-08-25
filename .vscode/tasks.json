@@ -9,8 +9,9 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-                
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-Wall",
+                "-WExtra"
             ],
             "options": {
                 "cwd": "${fileDirname}"
