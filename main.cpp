@@ -1,8 +1,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "grid.cpp"
-#include "ship.cpp"
+#include <sstream>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <cstring>
+#include "assets/grid.hpp"
+#include "assets/ship.hpp"
 using namespace std;
 
 void print_help() {
