@@ -26,3 +26,7 @@ std::string Grid::drawBoard(bool filter) const{
     boardView += "- - - - - - - - - - - -\n";
     return boardView;
 }
+
+void Grid::populate(char key, int x, int y) {
+    grid[y][x] = key;
+}

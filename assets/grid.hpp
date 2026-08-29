@@ -11,4 +11,5 @@ class Grid {
     public:
         Grid(int teamid);
         std::string drawBoard(bool filter = false) const;
+        void populate(char key, int x, int y);
 };
