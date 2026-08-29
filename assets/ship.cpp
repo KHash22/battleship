@@ -24,4 +24,5 @@ bool Ship::getHealth() const {
 
 char Ship::getTicker() const {
     return ticker;
+    //commit test
 }
